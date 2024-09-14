@@ -3,11 +3,12 @@ int main(){
 	float altura, pesoideal;
 	char sexo;
 	
+	printf("\nDigite o sexo: ");
+	scanf("%c", &sexo);
+	
 	printf("\nDigite a altura: ");
 	scanf("%f", &altura);
 	
-	printf("\nDigite o sexo: ");
-	scanf("%c", &sexo);
 	
 	if(sexo == "M"){
 		pesoideal = (72.7 * altura) - 58;
