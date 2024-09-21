@@ -14,6 +14,5 @@ int main(){
 	}
 	for(i=0;i<5;i++){
 		printf("\nVetorC[%i] -> %i", i, vetorC[i]);
-	}
-	
+	}	
 }
