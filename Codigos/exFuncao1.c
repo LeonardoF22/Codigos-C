@@ -10,6 +10,6 @@ int main(){
 	float area, raio;
 	printf("Entre com o raio da circunferencia: ");
 	scanf("%f", &raio);
-	area = calcularArea (raio);
+	area = calcularArea(raio);
 	printf("\nArea: %f", area);
 }
